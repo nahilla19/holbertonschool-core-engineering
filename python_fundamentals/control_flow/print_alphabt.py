@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-alphabet = ""
-for letter in "abcdefghijklmnopqrstuvwxyz":
-    if letter not in "eq":
-        alphabet += letter
-print(alphabet)
+for code in range(97, 123):
+    if code not in (101, 113):
+        print("{}".format(chr(code)), end="\n" if code == 122 else "")
