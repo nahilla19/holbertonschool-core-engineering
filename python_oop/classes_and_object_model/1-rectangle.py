@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Define a Rectangle with validated dimensions."""
 
 
 class Rectangle:
