@@ -5,6 +5,8 @@ BaseSquare = __import__("1-square").Square
 
 
 class Square(BaseSquare):
+    """Represent a square with a custom string."""
+
     def __str__(self):
         """Return the square description."""
         return super().__str__().replace("[Rectangle]", "[Square]", 1)
